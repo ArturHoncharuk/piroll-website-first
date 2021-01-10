@@ -1,0 +1,55 @@
+.photoset__section-wrap  {
+    display: flex;
+    flex-direction: row;
+}
+
+.photoset__section { 
+    background-color: #f5f5f5;
+}  
+
+.photoset__section .photoset__section-wrap img { 
+    width:  320px;
+    height: 300px;
+    width: 100%;
+}
+
+.photoset__section_second-wrap { 
+    display: flex;
+    flex-direction: row;
+    margin-top: -3px;
+}
+
+.photoset__section .photoset__section_second-wrap img { 
+    width:  320px;
+    height: 300px;
+    width: 100%;
+}
+
+.btn_photoset-work {  
+    padding: 45px 911px;
+    margin-top: -3px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    color: #959595;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+}
+
+.btn_photoset-work:active { 
+    transform: scale(0.98);
+    transition: 0.2;
+}
+
+@media only screen and (max-width: 1440px) { 
+    .btn_photoset-work { 
+        padding: 45px 671px;
+
+    }
+}
+
+@media only screen and (max-width: 1440px) { 
+    .photoset__section .photoset__section-wrap  {
+        width: 100%
+    }
+}

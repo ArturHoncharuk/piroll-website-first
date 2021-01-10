@@ -1,0 +1,19 @@
+.clients__section {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.clients__section-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 10%;
+}
+/*# sourceMappingURL=clients-section.css.map */

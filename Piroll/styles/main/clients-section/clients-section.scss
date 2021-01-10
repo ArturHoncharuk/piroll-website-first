@@ -1,0 +1,11 @@
+.clients__section { 
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.clients__section-list { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10%
+}

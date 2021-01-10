@@ -1,0 +1,104 @@
+.services-section {
+  background-color: #f5f5f5;
+  padding-top: 100px;
+  padding-left: 140px;
+  width: 92.7%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .services-section {
+    width: 1300px;
+  }
+}
+
+.services__section-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 55px;
+  width: 100%;
+}
+
+.services-section .services__section-list img {
+  margin-left: 210px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .services__section-list {
+    margin-left: -210px;
+  }
+}
+
+.services-section .services__section-list h3 {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  margin-bottom: 30px;
+  margin-left: 180px;
+  text-transform: uppercase;
+}
+
+.services-section .services__section-list p {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  color: #999999;
+  width: 230px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.services-section .services__section-list .second__service-li img {
+  margin-left: 260px;
+}
+
+.services-section .services__section-list .second__service-li h3 {
+  margin-left: 190px;
+}
+
+.services-section .services__section-list .second__service-li p {
+  margin-left: 170px;
+  width: 230px;
+}
+
+.services-section .services__section-list .third__service-li img {
+  margin-left: 230px;
+}
+
+.services-section .services__section-list .third__service-li h3 {
+  margin-left: 180px;
+}
+
+.services-section .services__section-list .third__service-li p {
+  margin-left: 130px;
+}
+
+.services-section .services__section-list .four__service-li img {
+  margin-left: 217px;
+}
+
+.services-section .services__section-list .four__service-li p {
+  margin-left: 130px;
+}
+
+.services__section-list .five__section-li img {
+  margin-left: 200px;
+}
+
+.services__section-list .five__section-li h3 {
+  margin-left: 155px;
+}
+
+.services__section-list .five__section-li p {
+  width: 250px;
+  margin-left: 100px;
+  padding-bottom: 100px;
+}
+
+.seven__service-text {
+  padding-left: 25px;
+}
+
+.seven__service-descr {
+  padding-left: 15px;
+}
+/*# sourceMappingURL=services-section.css.map */

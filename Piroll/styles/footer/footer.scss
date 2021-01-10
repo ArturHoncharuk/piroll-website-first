@@ -1,0 +1,96 @@
+.footer { 
+    background-color: #141414;
+    height: auto;
+}
+
+.main__footer-list { 
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 105px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-table-li { 
+    display: flex;
+    flex-direction: column;
+}
+
+.first-table-text { 
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.second-table-text { 
+    font-size: 15px;
+    width: 230px;
+    font-family: 'Nunito Sans';
+    color: #bcbcbc;
+}
+
+.footer__contact { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 320px;
+}
+
+@media only screen and (max-width: 1440px) { 
+    .footer__contact { 
+        margin-left: 160px;
+    }
+}
+
+.contact-mail { 
+    font-family: 'Nunito Sans';
+    color: #bcbcbc;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.footer-phonenumber { 
+    font-family: 'Work Sans';
+    font-size: 15px;
+    color: #bcbcbc;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footer_contact-links { 
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 320px;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1440px) { 
+    .footer_contact-links { 
+        margin-left: 120px;
+    }
+    }
+
+
+.footer_contact { 
+    font-family: 'Nunito Sans';
+    color: #bcbcbc;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.footer_another { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.footer__socials { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 230px;
+}

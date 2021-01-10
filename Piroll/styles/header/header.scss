@@ -1,0 +1,143 @@
+.header { 
+    width: 100%;
+    background: url(/img/anyback.png);
+    background-size: 100% 100%;
+    height: 557px;
+}
+
+@media only screen and (max-width: 375px) { 
+    .header { 
+        width: 150%;
+    }
+}
+
+@media only screen and (max-width: 1800px) { 
+    .header { 
+        width: 130%
+    }
+}
+
+@media only screen and (max-width: 1400px) { 
+    .header { 
+        width: 160%;
+    }
+}
+
+@media only screen and (max-width: 1500px) { 
+    .header { 
+        width: 220%;
+    }
+}
+
+@media only screen and (min-width: 1800px) { 
+    .header { 
+        width: 250%;
+    }
+}
+
+@media only screen and (max-width: 1920px) { 
+    .header { 
+        width: 100%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1100px) { 
+    .header { 
+        width: 190%;
+    }
+}
+
+
+.header__content { 
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav-list { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: -20px;
+}
+
+.header__logo-img { 
+    margin-left: 100px;
+    padding-top: 40px;
+}
+
+.header__content .header__nav-list a { 
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    color: #191919;
+    cursor: pointer;
+}
+
+.header__content .header__nav-list a:hover { 
+    color: #1ecbc6;
+}
+
+.info__title-content { 
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    flex-direction: column;
+    margin-top: 100px
+}
+
+.info__title-content h3 { 
+    font-size: 38px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.info__title-descr { 
+    text-align: start;
+    width: 500px;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+
+.info__title-content .info__title-descr { 
+    font-size: 18px;
+    color: #787878;
+    text-shadow: 0.03em 0.03em #787878
+}
+
+.info__title-content .btn__info__title-contact { 
+    padding: 20px 45px;
+    margin-top: 45px;
+    
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #1ab5b0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+}
+
+.info__title-content .btn__info__title-contact:active { 
+    transform: scale(1.05);
+    transition: 0.2;
+}
+
+@media (max-width: 1230px) { 
+    .header__nav-list { 
+        margin-left: 800px;
+    }
+    .header { 
+        background-image: url(/img/mwt.png);
+        background-size: 100% 100%;
+    }
+}
+
+

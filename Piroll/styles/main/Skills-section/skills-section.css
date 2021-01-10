@@ -1,0 +1,64 @@
+.skills_info-section .skills-results h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+
+.skills_info-section .skills-results h4 {
+  font-size: 12px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.skills-results {
+  padding-left: 260px;
+  padding-top: 160px;
+  padding-right: 260px;
+  padding-bottom: 205px;
+  background-color: #f8f9f9;
+  margin-top: 100px;
+}
+
+.skills_info-section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.freeimg {
+  position: absolute;
+  margin-left: 1020px;
+  margin-top: 100px;
+  width: 900px;
+  height: 599px;
+}
+
+.skills_info-section .skills-results img {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .skills-results {
+    width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .freeimg {
+    width: 640px;
+    margin-left: 800px;
+  }
+}
+/*# sourceMappingURL=skills-section.css.map */
